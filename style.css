@@ -16,8 +16,8 @@ body {
 
 .hero, 
 .footer {
-    background-color: #1F2937;
-    color: white;
+    background-color: #FFF8DC;
+    color: black;
 }
 
 .hero {
@@ -28,7 +28,7 @@ body {
 
 .hero .navigation p{
     font-size: 24px;
-    color: #F9FAF8;
+    color: black;
     margin-bottom: 0;
 }
 
@@ -52,18 +52,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main .text{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 47%;
 }
 
 .main .text h1{
     font-size: 48px;
-    color: #F9FAF8;
+    color: #8B4513;
     font-weight: 900;
     margin: 0;
 }
@@ -75,13 +88,13 @@ body {
 .main .text p,
 .navigation ul{
     font-size: 18px;
-    color: #E5E7EB
+    color: black;
 }
 
 .main .button{
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: none;
+    background-color: #FFF5EE;
+    color: black;
+    border: solid;
     border-radius: 5px;
     width: 25%;
     padding: 5px;
@@ -96,12 +109,12 @@ body {
 }
 
 a:link{
-    color: #E5E7EB;
+    color: black;
     text-decoration: none;
 }
 
 a:visited{
-    color: #E5E7EB;
+    color: black;
 }
 
 
@@ -109,6 +122,10 @@ a:visited{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.diffbackground{
+    background-color: #FFF5EE;
 }
 
 .illustrations {
@@ -121,7 +138,7 @@ a:visited{
 
 .illustration div{
     border-style: solid;
-    border-color: #3882F6;
+    border-color: #8B4513;
     border-radius: 8px;
     border-width: 3px;
     height: 145px;
@@ -138,10 +155,11 @@ a:visited{
 
 .header h1{
     margin: 45px auto;
+    color: #8B4513;
 }
 
 .quote-section {
-    background-color: #E5E7EB;
+    background-color: #F5DEB3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,7 +191,7 @@ a:visited{
 
 
 .notification{
-    background-color: #3882F6;
+    background-color: #8B4513;
     color: #F9FAF8;
     display: flex;
     margin: 75px 220px;
@@ -195,13 +213,13 @@ a:visited{
 
 .notification p{
     margin-top: 0;
-    color: #E5E7EB;
+    color: white;
 }
 
 .notification .button{
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-color: #F9FAF8;
+    background-color: #8B4513;
+    color: white;
+    border-color: white;
     border-style: solid;
     border-radius: 5px;
     width: 100px;
